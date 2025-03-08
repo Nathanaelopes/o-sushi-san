@@ -1,0 +1,235 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(/img/sushi.jpg);
+     
+}
+#menu{
+    background-color: black;
+}
+ul{
+    list-style: none;
+    float: right;
+}
+div i{
+    font-size: 30px;
+    cursor: pointer;
+
+    position: relative;
+    right: 5%;
+    color: black;
+   
+}
+ul li{
+    display: inline-block;
+    position: relative;
+    
+}
+ul li a{
+    display: block;
+    padding: 15px 25px 15px 25px;
+    color:#fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    background-color: #d54d6d;
+    width: 100px;
+}
+
+ul li a:hover{
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    background-color: #d54d6d;
+}
+
+ul li ul.submenu li{
+    display: block;
+}
+    ul li ul.submenu{
+        width: 110px;
+        background: white;
+        border-radius: none;
+        position: absolute;
+        z-index:999;
+        display: none;
+    }
+    ul li a:hover {
+        background: #112c66;
+        color: white;
+    }
+
+    ul li:hover ul.submenu {
+        display: block;
+    }
+.botaomenu{
+    background-color: white;
+    color: black;
+
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 65px;
+    letter-spacing: 7px;
+}
+.rodape2{
+    width: 100%;
+}
+.twitter{
+   width: 30px;
+   height: 30px;
+  float: right;
+  background-color: blue;
+  display: inline;
+  margin-right: 10px;
+}
+.menu2{
+    background-color: blue;
+    width: 230px;
+}
+#inicio{
+    /*background-color: #d54d6d;*/
+    position: relative;
+    top:-80px;
+    left: 500px;
+    width: 100px;
+    height: 120px;
+}
+#sobre{
+    /*background-color: #d54d6d;*/
+    margin-left: 150px;
+    position: relative;
+    top:-94px;
+    width: 100px;
+    height: 130px;
+}
+#cardapio{
+    background-color: aliceblue;
+    color: black;
+    border-radius: 12px;
+    text-decoration: none;
+    padding: 15px 25px 15px 25px;
+    position: relative;
+    top: 40px;
+}
+
+#cardapio:hover{
+    background-color: #e1b785;
+    color: white;
+    border-radius: 12px;
+    text-decoration: none;
+    padding: 15px 25px 15px 25px;
+   
+    position: relative;
+    top: 40px;
+}
+
+/*.divs2{
+    background-color:#dcdcd9 ;
+    width: 150px;
+    height: 220px;
+    margin: 15px 25px 15px 25px;
+    border-radius: 15px;
+}
+    */
+.divs{
+    background-color: #576852;
+    display: inline-block;
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+   
+}
+
+section{
+    background-color:#1f1710ce;
+    width: 85%;
+    height: 1005px;
+    top:116px;
+    margin-left: 95px;
+    border-radius: 10px;
+    padding: 10px 12px 10px 12px;
+    border-left: 15PX;
+    position: relative;
+    bottom: 160px
+}
+#suporte{
+    /*background-color: #d54d6d;*/
+    margin-left: 300px;
+    position: relative;
+    top:-222px;
+    width: 100px;
+    height: 120px;
+}
+h4{
+    color: rgb(231, 220, 220);
+}
+h3{
+    color: #fcfdfd;
+}
+img{
+    position: relative;
+    background-color: #fcfdfd;
+    left: 70px;
+    top:50px;
+    width: 180px;
+    height: 180px;
+    border-radius: 5px;
+}
+ 
+footer{
+    width: 100%;
+    height: 340px;
+    background: rgba(20, 20, 20, 0.89);
+    position: relative;
+    background-color: black;
+}
+#pe{
+    width: 100%;
+    width: 30px;
+    background-color: #d54d6d;
+}
+.botao a:hover{
+    padding: 12px 16px 8px 12px;
+    background: beige;
+}
+#contato{
+    background-color:#d54d6d;
+    text-decoration: none;
+
+}
+hr{
+    width: 28%;
+    color: white;
+    margin-left: 600px;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.788);
+    width: 100%;
+    height: 175px;
+    z-index: 1000;
+    clear: both;
+}
+
+.botao{
+    color: black;
+    background-color: aliceblue;
+    text-decoration: none;
+    padding: 8px 12px 8px 12px;
+    border-radius: 20px;
+    float: right;
+    position: relative;
+    top: -12px;
+    margin-left: 10px;
+}
+.botao:hover{
+    color: whitesmoke;
+    background-color: #d54d6d;
+    text-decoration: none;
+    padding: 14px 16px 8px 12px;
+}
